@@ -1,0 +1,13 @@
+import java.util.*;
+class BinarySearch 
+{
+	public static void main(String[] args) 
+	{
+		int[] arr = {12,3,1,10,8};
+		Arrays.sort(arr);
+		String info = Arrays.toString(arr);
+		System.out.println("数组的元素：" + info);
+		int index = Arrays.binarySearch(arr.9);
+		System.out.println("找到的索引值：" + index);
+	}
+}
